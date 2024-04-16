@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    padding: 3px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 400; */
+    font-style: normal;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* gap: 5px; */
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.header-logo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-logo h3 span{
+    color: orangered;
+    /* border: 1px solid black;
+    border-radius: 5px; */
+}
+
+.header-search, .search-icon,.image-search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+
+.search-input{
+    flex-grow: 1;
+    font: inherit;
+}
+
+.search-input input{
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-categories{
+    display: flex;
+    gap: 1rem;
+    background-color: #eee;
+    overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+    gap: 1rem;
+    padding-right: 10px;
+    border-radius: 2px;
+}
+
+.header-categories::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+}
+
+.header-categories p{
+    width:max-content;
+    text-wrap: nowrap;
+    border: 1px solid #bbb;
+    margin: 3px;
+    border-radius: 5px;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+}
+
+.active{
+    background-color: #ccc;
+}
+
+/* ********************* */
+.body-container-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* border: 1px solid red; */
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+
+}
+
+.slide-banner img{
+    width: 100%;
+}
+
+.summary-info{
+    display: flex;
+    align-items:stretch;
+    justify-content:space-between;
+    gap: 0.5rem;
+    /* border: 1px solid red; */
+    /* flex-wrap: wrap; */
+
+}
+.info-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.summary-info span{
+    /* border: 1px solid red; */
+    color: #888;
+}
+
+.summary-info p {
+    font-size: 0.5rem;
+    text-wrap: wrap;
+    text-align: center;
+}
+
+.trending-products{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 5px;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.product-card p{
+    font-size: 0.65rem;
+}
+
+.item1 {
+    grid-column: span 2; /* Take up 2 columns */
+    grid-row: span 1; /* Take up 1 row */
+}
+.item2 {
+    grid-column: span 2; /* Take up 2 columns */
+    grid-row: span 1; /* Take up 1 row */
+}
+.item3 {
+    grid-column: span 2; /* Take up 2 columns */
+    grid-row: span 1; /* Take up 1 row */
+}
+.item4 {
+    grid-column: span 2; /* Take up 2 columns */
+    grid-row: span 1; /* Take up 1 row */
+    /* background-color: aqua; */
+}
+.item5 {
+    grid-column: span 2; /* Take up 2 columns */
+    grid-row: span 1; /* Take up 1 row */
+}
+.item6 {
+    grid-column: span 2; /* Take up 2 columns */
+    grid-row: span 1; /* Take up 1 row */
+}
+.item7 {
+    grid-column: span 2; /* Take up 2 columns */
+    grid-row: span 1; /* Take up 1 row */
+}
+.item8 {
+    grid-column: span 2; /* Take up 2 columns */
+    grid-row: span 1; /* Take up 1 row */
+}
+.item9 {
+    grid-column: span 2; /* Take up 2 columns */
+    grid-row: span 1; /* Take up 1 row */
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 100%;
+}
+
+.product-grid-item img{
+    width: 100%;
+}
+
+.product-grid-item p{
+    font-size: 0.75rem;
+}
