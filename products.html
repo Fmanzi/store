@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="products.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="body-container">
+      <header class="body-container-item">
+        <div class="header-logo container">
+          <div class="header-logo-item">
+            <span class="material-symbols-outlined"> menu </span>
+          </div>
+          <div class="header-logo-item">
+            <h3>Android<span>Express</span></h3>
+          </div>
+          <div class="header-logo-item">
+            <span class="material-symbols-outlined"> account_circle </span>
+            <span class="material-symbols-outlined"> shopping_cart </span>
+            <span></span>
+          </div>
+        </div>
+        <div class="header-search container">
+          <div class="search-icon">
+            <span class="material-symbols-outlined"> search </span>
+          </div>
+          <div class="search-input">
+            <input type="text" name="" id="" placeholder="Search Products" />
+          </div>
+
+          <div class="image-search-icon">
+            <span class="material-symbols-outlined"> photo_camera </span>
+          </div>
+        </div>
+      </header>
+      <main class="body-container-item">
+        <div class="hero-section slider">
+          <div class="slide-banner">
+            <img src="./images/blog-4.jpg" alt="banner" />
+            <img src="./images/blog-1.jpg" alt="banner" />
+            <img src="./images/blog-2.jpg" alt="banner" />
+            <!-- <img src="./images/blog-4.jpg" alt="banner" /> -->
+          </div>
+          <!-- Indicators container -->
+          <div class="indicators">
+            <!-- <p>*</p>
+            <p>*</p>
+            <p>*</p> -->
+          </div>
+
+          <button class="prev slider-btn" onclick="prevSlide()">
+            &#10094;
+          </button>
+          <button class="next slider-btn" onclick="nextSlide()">
+            &#10095;
+          </button>
+        </div>
+
+        <!-- ********************************** -->
+
+        <!-- <h4>Name and Description</h4> -->
+        <div class="product-name-description">
+          <p class="product-name">AMAYA TK 03 WIRELESS EARBUDS</p>
+          <p class="product-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem, consectetur. Harum rerum et libero quam vitae
+            molestias sit? Nostrum fuga quibusdam aspernatur totam commodi
+            soluta tenetur?
+          </p>
+          <p class="product-price">Ksh. 1700</p>
+        </div>
+
+        <h4>Specs</h4>
+
+        <div class="variants">
+          <h5>Color</h5>
+          <div class="color-variants">
+            <p>white</p>
+            <p>black</p>
+            <p>blue</p>
+            <p>white</p>
+            <p>grey</p>
+          </div>
+          <h5>Size</h5>
+          <div class="size-variants">
+            <p>37</p>
+            <p>38</p>
+            <p>39</p>
+            <p>40</p>
+            <p>41</p>
+            <p>42</p>
+          </div>
+        </div>
+
+        <!-- ********************************** -->
+        <h4>Related Products</h4>
+        <div class="products">
+          <div class="product-grid-item">
+            <img src="./images/products/3.jpg" alt="" />
+            <p>Baby shoes</p>
+          </div>
+          <div class="product-grid-item">
+            <img src="./images/products/3.jpg" alt="" />
+            <p>Baby shoes</p>
+          </div>
+          <div class="product-grid-item">
+            <img src="./images/products/3.jpg" alt="" />
+            <p>Baby shoes</p>
+          </div>
+          <div class="product-grid-item">
+            <img src="./images/products/3.jpg" alt="" />
+            <p>Baby shoes</p>
+          </div>
+          <div class="product-grid-item">
+            <img src="./images/products/3.jpg" alt="" />
+            <p>Baby shoes</p>
+          </div>
+          <div class="product-grid-item">
+            <img src="./images/products/3.jpg" alt="" />
+            <p>Baby shoes</p>
+          </div>
+          <div class="product-grid-item">
+            <img src="./images/products/3.jpg" alt="" />
+            <p>Baby shoes</p>
+          </div>
+          <div class="product-grid-item">
+            <img src="./images/products/3.jpg" alt="" />
+            <p>Baby shoes</p>
+          </div>
+        </div>
+
+        <!-- *************************************** -->
+      </main>
+      <div class="buy-now">
+        <p>Buy Now</p>
+      </div>
+    </div>
+
+    <footer class="body-container-item footer">
+      <div class="footer-row">
+        <p>Popular Products</p>
+        <p>Featured Products</p>
+        <p>Hot offers Products</p>
+      </div>
+      <div class="footer-row">
+        <p>About</p>
+        <p>Privacy Policy</p>
+        <p>Contact</p>
+      </div>
+      <div class="footer-row">
+        <p>
+          Copyright &#169; 2024. Android Express Communications Co. Ltd.
+          <br />All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

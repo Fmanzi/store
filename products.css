@@ -1,0 +1,35 @@
+.product-name, .product-price{
+    font-weight: 700;
+}
+
+
+
+
+.color-variants, .size-variants{
+    display: flex;
+    gap: 1rem;
+}
+
+.color-variants p, .size-variants p{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.buy-now{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 97vw;
+    margin: 2px;
+    /* left: 45%; */
+    border: 1px solid red;
+    border-radius: 5PX;
+    /* margin: auto; */
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+

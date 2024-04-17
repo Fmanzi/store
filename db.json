@@ -1,0 +1,91 @@
+{
+  "productId": "ABC123",
+  "productName": "Example Product",
+  "productDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac nulla non ante tincidunt tempus. Donec euismod mi vel libero viverra, nec fermentum metus venenatis. Integer et magna sit amet libero aliquam egestas.",
+  "productCategory": ["Electronics", "Smartphones"],
+  "productPrice": {
+    "regularPrice": 499.99,
+    "salePrice": 449.99,
+    "discountPercentage": 10
+  },
+  "productImages": [
+    "https://example.com/images/product-image1.jpg",
+    "https://example.com/images/product-image2.jpg",
+    "https://example.com/images/product-image3.jpg"
+  ],
+  "productVariants": [
+    {
+      "variantId": "VAR001",
+      "variantName": "Color",
+      "options": [
+        {
+          "optionName": "Black",
+          "optionPrice": 0,
+          "optionQuantity": 20
+        },
+        {
+          "optionName": "White",
+          "optionPrice": 0,
+          "optionQuantity": 15
+        },
+        {
+          "optionName": "Blue",
+          "optionPrice": 0,
+          "optionQuantity": 10
+        }
+      ]
+    },
+    {
+      "variantId": "VAR002",
+      "variantName": "Storage Capacity",
+      "options": [
+        {
+          "optionName": "64GB",
+          "optionPrice": 0,
+          "optionQuantity": 25
+        },
+        {
+          "optionName": "128GB",
+          "optionPrice": 50,
+          "optionQuantity": 15
+        }
+      ]
+    }
+  ],
+  "productInventory": 50,
+  "productAvailability": true,
+  "productShippingInfo": {
+    "shippingCost": 9.99,
+    "deliveryTime": "3-5 business days"
+  },
+  "productReviews": [
+    {
+      "reviewId": "REV001",
+      "username": "JohnDoe",
+      "rating": 5,
+      "review": "Great product, fast delivery!"
+    },
+    {
+      "reviewId": "REV002",
+      "username": "JaneSmith",
+      "rating": 4,
+      "review": "Good value for money."
+    }
+  ],
+  "productTags": ["Smartphone", "Android", "4G", "Touchscreen"],
+  "productMetadata": {
+    "SKU": "E123456",
+    "UPC": "012345678912",
+    "MPN": "MPN123"
+  },
+  "productAttributes": {
+    "brand": "Example Brand",
+    "dimensions": {
+      "length": 5.5,
+      "width": 2.8,
+      "height": 0.3
+    },
+    "weight": 150,
+    "material": "Plastic"
+  }
+}

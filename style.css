@@ -51,11 +51,15 @@ header{
     gap: 1rem;
     align-items: center;
     justify-content: space-between;
+    /* position: sticky;
+    top: 0;
+    left: 0; */
 
 }
 
 .header-logo h3 span{
     color: orangered;
+
     /* border: 1px solid black;
     border-radius: 5px; */
 }
@@ -142,13 +146,14 @@ header{
 
 .slider-btn{
     position: absolute;
-    top: 37%;
+    top: 38%;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
     cursor: pointer;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .prev{
@@ -159,8 +164,6 @@ header{
 .next{
     right: 8px;
 }
-
-
 
 
 
@@ -177,8 +180,9 @@ header{
   margin-top: 10px;
   /* border: 1px solid red; */
   position: absolute;
-  top: 180px;
+  /* top: 180px; */
   left: 40%;
+  /* right: 0; */
 }
 
 .indicator {
