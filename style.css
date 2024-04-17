@@ -182,10 +182,13 @@ header{
     /* border: 1px solid red; */
      /* object-fit:contain; */
      /* background-color: orange; */
+     background-color: skyblue;
      /* background: linear-gradient(to right, #eee, #bbb); */
      /* background: linear-gradient(to right, orange, red); */
      /* background: radial-gradient(circle, orange, orangered); */
-     background: radial-gradient(circle, #eee, #bbb);
+     /* background: radial-gradient(circle, #eee, #bbb); */
+     /* background: radial-gradient(circle, #fff, skyblue); */
+
      /* opacity: 0.7; */
      /* background: linear-gradient(to right, red, yellow, green, blue); */
      border-radius: 5px;
