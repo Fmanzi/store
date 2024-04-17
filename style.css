@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     /* border: 1px solid red; */
-    padding: 3px;
+    padding: 2px;
+    /* margin: 2px; */
 }
 
 li{
@@ -20,6 +21,16 @@ html{
     font-style: normal;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+h4{
+    text-align: center;
+}
+
 .body-container{
     display: flex;
     flex-direction: column;
@@ -33,6 +44,7 @@ header{
     gap: 5px;
     background-color: #fff;
 }
+
 
 .header-logo{
     display: flex;
@@ -71,14 +83,13 @@ header{
 
 .header-categories{
     display: flex;
-    gap: 1rem;
+    gap: 0.3rem;
     /* background-color: #eee; */
     overflow-x: auto;
         -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
     scrollbar-width: none; /* Hide scrollbar for Firefox */
     -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
-    gap: 1rem;
-    padding-right: 10px;
+    padding-right: .8rem;
     border-radius: 2px;
 }
 
@@ -144,12 +155,14 @@ header{
     /* border: 1px solid red; */
     color: #666;
     font-size: 2rem;
+    /*  */
 }
 
 .summary-info p {
     font-size: 0.57rem;
     text-wrap: wrap;
     text-align: center;
+    
 }
 
 .trending-products{
@@ -160,9 +173,36 @@ header{
     background-color: #fff;
 }
 
+
+.ad-banner{
+    margin-top: 5px;
+    width: 100%;
+    /* height: 150px; */
+    height: 80px;
+    /* border: 1px solid red; */
+     /* object-fit:contain; */
+     /* background-color: orange; */
+     /* background: linear-gradient(to right, #eee, #bbb); */
+     /* background: linear-gradient(to right, orange, red); */
+     /* background: radial-gradient(circle, orange, orangered); */
+     background: radial-gradient(circle, #eee, #bbb);
+     /* opacity: 0.7; */
+     /* background: linear-gradient(to right, red, yellow, green, blue); */
+     border-radius: 5px;
+}
+
+.ad-banner img{
+    width: 100%;
+    border-radius: 8px;
+    /* border: 1px solid red; */
+   
+}
+
+
 .product-card{
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
     /* border: 1px solid red; */
 }
 
@@ -221,4 +261,25 @@ header{
 
 .product-grid-item p{
     font-size: 0.8rem;
+}
+
+.footer{
+     background-color: #f3f3f3;
+     /* border: 1px solid red; */
+}
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    /* border: 1px solid red; */
+    
+}
+
+.footer-row p{
+    font-size: 0.7rem;
+    border-left: 1px solid #ccc;
+    /* border-right: 1px solid #ccc; */
+    text-align: center;
 }
